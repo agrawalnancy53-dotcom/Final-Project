@@ -1,0 +1,62 @@
+/* Tablet */
+
+@media (max-width: 768px){
+
+.my-rows{
+grid-template-columns:repeat(2,1fr);
+}
+
+.my-row{
+grid-template-columns:repeat(2,1fr);
+}
+
+.about{
+flex-direction:column;
+text-align:center;
+}
+
+}
+
+/* Mobile */
+
+@media (max-width: 768px){
+
+.menu{
+display:none;
+}
+
+.hamburger{
+display:block;
+}
+
+.hero{
+text-align:center;
+}
+
+.greatest-heading{
+font-size:32px;
+}
+
+.my-rows{
+grid-template-columns:1fr;
+}
+
+.my-row{
+grid-template-columns:1fr;
+}
+
+}
+
+/* Small Mobile */
+
+@media (max-width:480px){
+
+section{
+padding:40px 5%;
+}
+
+.greatest-heading{
+font-size:26px;
+}
+
+}
